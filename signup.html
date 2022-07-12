@@ -10,8 +10,7 @@
   <!-- ---------------- estilos compartilhados entre login e signup ---------------- -->
   <link rel="stylesheet" href="styles/acesso.css">
 
-  
-  
+
 
 </head>
 
@@ -25,36 +24,36 @@
       <div class="form-header">
         <p>To-Do App</p>
       </div>
-
+<div class="msg"></div>
       <label>
         Nome:
-        <input type="text" id='nome'>
+        <input type="text" class="name">
       </label>
       <label>
         Sobrenome:
-        <input type="text" id='sobrenome'>
+        <input type="text" class="lastName">
       </label>
       <label>
         Email:
-        <input type="email" id='email'>
+        <input type="email" class="email">
       </label>
       <label>
         Senha:
-        <input type="password" id='password'>
+        <input type="password" class="password" placeholder="deve ter letras, numeros e caracteres">
       </label>
       <label>
         Repetir senha:
-        <input type="password" id='repassword'>
+        <input type="password" class="repeatePassword" placeholder="repita a senha">
       </label>
 
-      <button id='botao'>Criar conta</button>
+      <button class="button" type="submit" >Criar conta</button>
 
     </form>
     <div class="ingressar">
       <a href="index.html">Já possui conta? Acesse aqui</a>
     </div>
   </div>
-<script src="./scripts/validacao.js"></script>
+  <script src="./scripts/scriptSingUp.js"></script>
 </body>
 
 </html>
